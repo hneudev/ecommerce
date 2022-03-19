@@ -1,0 +1,67 @@
+
+    body {
+        max-width: 1024px;
+        margin: 0 auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+      }
+  
+      .grid {
+        display: grid;
+        grid-template-columns: 80% 20%;
+      }
+  
+      .grid > .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+  
+      .grid-2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 20px;
+      }
+  
+      .grid-2 > * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .grid-2 img{
+          /* height: 100px; */
+          width: 100px;
+      }
+  
+      .grid-2 div{
+          border: solid;
+          border-color: gray;
+          border-radius: 20px;
+      }
+      .shopCart {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: bisque;
+        border-radius: 10px;
+      }
+  
+      .shopCart > * {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .shopCart img{
+        /* height: 100px; */
+        width: 100px;
+    }
+
+    .shopCart div{
+        border: solid;
+        border-color: gray;
+        border-radius: 20px;
+        width: 150px;
+    }
