@@ -79,8 +79,7 @@ const shopCartRender = async () => {
 }
 
 // Renderizado del total de venta
-const totalRender = async () => {
-
+const totalRender = () => {
     let html = ''
       html += '<div>'
       html += `<h1>Total Amount:</h1>`
